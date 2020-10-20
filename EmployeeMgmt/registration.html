@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page for Employee</title>
+</head>
+<body>
+<h2>Register Employee</h2><br><br>
+<form action="/EmployeeMgmt/RegisterServlet" method="post">
+Name:<input type="text" name="name"><br>
+Salary:<input type="text" name="salary"><br>
+Gender:<input type="radio" name="gender" value="M">Male
+<input type="radio" name="gender" value="F">Female
+<input type="radio" name="gender" value="O">Others
+<br>
+Phone:<input type="text" name="phone"><br>
+DOB:<input type="text" name="dob"><br>
+Designation:<input type="text" name="designation"><br>
+Department:<input type="text" name="department"><br>
+<input type="submit" name="submit" value="save">
+</form>
+
+</body>
+</html>
